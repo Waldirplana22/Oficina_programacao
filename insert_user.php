@@ -13,5 +13,6 @@ $insert = "INSERT INTO user VALUES(null, '$nome','$login','$senha')";
 
 $sql = mysqli_query($conexao,$insert);
 
+echo "Cadastrado com sucesso";
 
 ?>
